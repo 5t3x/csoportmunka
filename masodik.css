@@ -1,0 +1,12 @@
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hatter.jpg);
+    background-repeat: no-repeat;
+    width: auto;
+    color: white;
+    text-align: center;
+}
+.jellemzok{
+    margin-top: 50px;
+}
+img {
+}
