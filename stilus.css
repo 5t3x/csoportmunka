@@ -3,10 +3,13 @@ html {
     width: auto;
     color: white;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 img {
     width: 300px;
     height: 300px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
 ul {
     list-style-type: none;
@@ -31,4 +34,35 @@ a:hover {
 .tmb {
     font-weight: bold;
     margin: 10px 10px;
+}
+@keyframes vidrak {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; right:200px; top:0px;}
+    50%  {background-color:blue; right:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .elso {
+        position: relative;
+        background-color: red;
+        animation-name: vidrak;
+        animation-duration: 4s;
+      }
+    .masodik {
+        position: relative;
+        background-color: red;
+        animation-name: vidrak;
+        animation-duration: 3s;
+}
+    .harmadik {
+        position: relative;
+        background-color: red;
+        animation-name: vidrak;
+        animation-duration: 2s;
+}
+    .negyedik {
+        position: relative;
+        background-color: red;
+        animation-name: vidrak;
+        animation-duration: 1s;
 }
