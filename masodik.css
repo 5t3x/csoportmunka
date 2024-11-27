@@ -4,9 +4,31 @@ html {
     width: auto;
     color: white;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .jellemzok{
     margin-top: 50px;
 }
-img {
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: lightgreen;
+}
+.link{
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.terkep{
+    width: 1400;
+    height: 600px;
+}
+img{
+    border: 2px solid white;
+    border-radius: 10px;
 }
