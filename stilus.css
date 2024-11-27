@@ -18,6 +18,7 @@ ul {
     padding: 0px;
     border: 2px solid white;
     border-radius: 10px;
+    background-color: black, linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
 }
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hatter.jpg);
@@ -38,31 +39,35 @@ a:hover {
 @keyframes vidrak {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; right:200px; top:0px;}
-    50%  {background-color:blue; right:200px; top:200px;}
-    75%  {background-color:green; left:0px; top:200px;}
+    50%  {background-color:blue; right:200px; top:100px;}
+    75%  {background-color:green; left:0px; top:100px;}
     100% {background-color:red; left:0px; top:0px;}
   }
   .elso {
         position: relative;
         background-color: red;
         animation-name: vidrak;
-        animation-duration: 4s;
+        animation-duration: 1s;
+        animation-delay: 0s;
       }
     .masodik {
         position: relative;
         background-color: red;
         animation-name: vidrak;
-        animation-duration: 3s;
+        animation-duration: 1.2s;
+        animation-delay: 0s;
 }
     .harmadik {
         position: relative;
         background-color: red;
         animation-name: vidrak;
-        animation-duration: 2s;
+        animation-duration: 1.4s;
+        animation-delay: 0s;
 }
     .negyedik {
         position: relative;
         background-color: red;
         animation-name: vidrak;
-        animation-duration: 1s;
+        animation-duration: 1.6s;
+        animation-delay: 0s;
 }
