@@ -1,6 +1,7 @@
 html {
-    background-image: url(hatter.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hatter.jpg);
     background-repeat: no-repeat;
-    width: 800px;
+    width: auto;
     color: white;
+    text-align: center;
 }
