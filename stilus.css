@@ -18,6 +18,8 @@ ul {
 }
 body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(hatter.jpg);
+    padding-right: 10px;
+    padding-left: 10px;
 }
 a {
     color: white;
@@ -25,4 +27,8 @@ a {
 }
 a:hover {
     color: lightgreen;
+}
+.tmb {
+    font-weight: bold;
+    margin: 10px 10px;
 }
