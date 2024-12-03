@@ -54,6 +54,10 @@ img {
     font-weight: bold;
 }
 
+li {
+    list-style-type: none;
+}
+
 @media only screen and (max-width: 1000px) {
     .terkep {
         width: 200px;
