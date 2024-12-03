@@ -53,3 +53,28 @@ img {
     padding-bottom: 10px;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 1000px) {
+    .terkep {
+        width: 200px;
+        height: 200px;
+    }
+    .terkep2 {
+        width: 200px;
+        height: 200px;
+    }
+    .terkep3 {
+        width: 200px;
+        height: 200px;
+    }
+  }
+
+@media only screen and (max-width: 660px) {
+    img {
+        width: 200px;
+        height: 200px;
+    }
+    html {
+        background-repeat: repeat-y;
+    }
+}
