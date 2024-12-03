@@ -30,12 +30,17 @@ a:hover {
 }
 
 .terkep {
-    width: 1400;
+    width: 950px;
     height: 580px;
 }
 
 .terkep2 {
     width: 1200px;
+    height: 600px;
+}
+
+.terkep3 {
+    width: 900px;
     height: 600px;
 }
 
