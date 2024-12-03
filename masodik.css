@@ -58,6 +58,10 @@ li {
     list-style-type: none;
 }
 
+ul {
+    background-color: rgb(36, 36, 36);
+}
+
 h1 {
     font-style: italic;
 }
