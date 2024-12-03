@@ -43,36 +43,32 @@ a:hover {
     margin: 10px 10px;
 }
 @keyframes vidrak {
-    0%   {background-color:red; left:0px; top:0px;}
-    25%  {background-color:yellow; right:200px; top:0px;}
-    50%  {background-color:blue; right:200px; top:100px;}
-    75%  {background-color:green; left:0px; top:100px;}
-    100% {background-color:red; left:0px; top:0px;}
+    0%   {left:0px; top:0px;}
+    25%  {right:200px; top:0px;}
+    50%  {right:200px; top:100px;}
+    75%  {left:0px; top:100px;}
+    100% {left:0px; top:0px;}
   }
-  .elso {
+    .elso {
         position: relative;
-        background-color: red;
         animation-name: vidrak;
         animation-duration: 1s;
         animation-delay: 0s;
       }
     .masodik {
         position: relative;
-        background-color: red;
         animation-name: vidrak;
         animation-duration: 1.2s;
         animation-delay: 0s;
 }
     .harmadik {
         position: relative;
-        background-color: red;
         animation-name: vidrak;
         animation-duration: 1.4s;
         animation-delay: 0s;
 }
     .negyedik {
         position: relative;
-        background-color: red;
         animation-name: vidrak;
         animation-duration: 1.6s;
         animation-delay: 0s;
