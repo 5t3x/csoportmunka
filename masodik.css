@@ -6,17 +6,21 @@ html {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.jellemzok{
+
+.jellemzok {
     margin-top: 50px;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     color: lightgreen;
 }
-.link{
+
+.link {
     list-style-type: none;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -24,14 +28,17 @@ a:hover {
     border: 2px solid white;
     border-radius: 10px;
 }
-.terkep{
+
+.terkep {
     width: 1400;
     height: 580px;
 }
-img{
+
+img {
     border: 2px solid white;
     border-radius: 10px;
 }
+
 .tmb {
     padding-bottom: 10px;
     font-weight: bold;
